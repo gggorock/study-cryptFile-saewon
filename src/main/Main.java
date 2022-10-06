@@ -4,7 +4,7 @@ package main;
 import java.io.File;
 import java.util.Scanner;
 
-public class FileCryption {
+public class Main {
     public static void main(String[] args) {
         AppConfig ac = new AppConfig();
         CryptionService es = ac.getEncryptionService();

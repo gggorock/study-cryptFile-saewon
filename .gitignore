@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 /.idea
 /.idea/*.xml
-/.iml
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/

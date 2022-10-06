@@ -25,14 +25,6 @@ public class FileRepository implements Repository {
 
         return fileBytes;
 
-//        String text = null;
-//        try {
-//            text = Files.readString(Path.of(path));
-//
-//        } catch (IOException e) {
-//            e.toString();
-//        }
-//        return text;
     }
 
     @Override
