@@ -23,7 +23,8 @@ public class EncryptionService {
     }
 
     private String getTargetPath(String path) {
-
+        String targetPath = null;
+        return targetPath;
     }
 
 }
