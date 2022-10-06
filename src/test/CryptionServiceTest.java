@@ -1,7 +1,7 @@
 package test;
 
 import main.CaesarCryptor;
-import main.CryptionService;
+import main.CryptService;
 import main.FileRepository;
 import main.Repository;
 
@@ -10,7 +10,7 @@ import java.io.File;
 public class CryptionServiceTest {
     public static void main(String[] args) {
         Repository repo = new FileRepository();
-        CryptionService cs = new CryptionService(new CaesarCryptor(), repo);
+        CryptService cs = new CryptService(new CaesarCryptor(), repo);
 
         //encryptFile 테스트
         File sample = new File("./origin_file/sample");

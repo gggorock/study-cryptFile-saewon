@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         AppConfig ac = new AppConfig();
-        CryptionService es = ac.getEncryptionService();
+        CryptService es = ac.getEncryptionService();
 
         Scanner sc = new Scanner(System.in);
 
